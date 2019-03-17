@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{C0767488-5DDF-4247-AE31-B519150A703F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CSharpArrays</RootNamespace>
-    <AssemblyName>CSharpArrays</AssemblyName>
+    <RootNamespace>CSharpCollections</RootNamespace>
+    <AssemblyName>CSharpCollections</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SchoolRoll.cs" />
     <Compile Include="Student.cs" />
   </ItemGroup>
   <ItemGroup>
