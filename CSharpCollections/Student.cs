@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpArrays
+namespace CSharpCollections
 {
     class Student : IComparable<Student>
     {
@@ -22,5 +22,6 @@ namespace CSharpArrays
 
             return result;
         }
+
     }
 }

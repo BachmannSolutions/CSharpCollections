@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCollections", "CSharpArrays\CSharpCollections.csproj", "{C0767488-5DDF-4247-AE31-B519150A703F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCollections", "CSharpCollections\CSharpCollections.csproj", "{C0767488-5DDF-4247-AE31-B519150A703F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {378AD2F2-407E-4EF5-B31A-C7DFF4852309}
+		SolutionGuid = {F984DF26-8FFD-4E54-AA2D-1B4CBC5B9C9A}
 	EndGlobalSection
 EndGlobal
