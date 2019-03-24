@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CSharpCollections
 {
@@ -11,13 +7,13 @@ namespace CSharpCollections
         public string Name { get; set; }
         public int GradeLevel { get; set; }
 
-        public int CompareTo(Student that)
+        public int CompareTo( Student that )
         {
             int result = this.Name.CompareTo(that.Name);
 
-            if (result == 0)
+            if( result == 0 )
             {
-                result = this.GradeLevel.CompareTo(that.GradeLevel);
+                result = this.GradeLevel.CompareTo( that.GradeLevel );
             }
 
             return result;
@@ -28,11 +24,11 @@ namespace CSharpCollections
             return Name.GetHashCode() + GradeLevel.GetHashCode();
         }
 
-        public override bool Equals(object obj)
+        public override bool Equals( object obj )
         {
             Student that = obj as Student;
 
-            if(that == null)
+            if( that == null )
             {
                 return false;
             }
